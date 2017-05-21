@@ -17,7 +17,7 @@ var respectWomen = [
 var uwu = Math.floor(Math.random() * respectWomen.length)
 
 var img = document.createElement('img')
-img.setAttribute('src', uwu)
+img.setAttribute('src', respectWomen[uwu])
 img.setAttribute('class', 'uwu')
 
 document.body.appendChild(img)
